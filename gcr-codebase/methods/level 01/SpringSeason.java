@@ -10,12 +10,9 @@ class SpringSeason{
    
    public static void main(String []args){
    
-     //taking input for month and day
-	  Scanner input =new Scanner(System.in);
-      System.out.println("Enter month");
-	  int month=input.nextInt();
-	   System.out.println("Enter day");
-	  int day=input.nextInt();
+     //taking input for month and day from command line argument
+	  int month=Integer.parseInt(args[0]);
+	  int day=Integer.parseInt(args[0]);
 	  
 	  //creating object of class
 	  SpringSeason object=new SpringSeason();
@@ -26,8 +23,6 @@ class SpringSeason{
 	  System.out.println("Its a Spring Season");
 	  else 
 	  System.out.println("Its not a Spring Season");
-	   
-	  input.close();
 	  
 	  }
    }
