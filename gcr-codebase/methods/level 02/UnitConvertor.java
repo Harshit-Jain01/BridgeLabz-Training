@@ -1,7 +1,6 @@
 import java.util.*;
 class UnitConvertor{
 
-  //creating method to find smallest and largest of the three numbers
 
  public static double convertKmToMiles(double km){
  
