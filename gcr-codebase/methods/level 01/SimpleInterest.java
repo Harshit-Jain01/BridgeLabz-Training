@@ -22,7 +22,7 @@ class SimpleInterest{
       double result=obj. calculateSimpleIntereset(principal,rate,time);
       
     //displaying the simpleInterest
-     System.out.println("The Simple Interest is"+result+" "+"for Principal" +principal+","+"Rate Of Interest"+" "+rate+" "+"and Time"+" "+time);
+     System.out.println("The Simple Interest is "+result+" "+"for Principal" +principal+","+"Rate Of Interest"+" "+rate+" "+"and Time"+" "+time);
      
      input.close();
      }
