@@ -17,7 +17,7 @@ public class DayOfWeek{
 
 
 	//appying operations and displaying the result 
-	if(dw==0)
+	if(dw==0) 
 		System.out.println("Sunday");
 	else if(dw==1)
 		System.out.println("Monday");
