@@ -150,4 +150,4 @@ BridgeLabz-Training/
 
 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2002)  
-👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+👉 [LeetCode String Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
