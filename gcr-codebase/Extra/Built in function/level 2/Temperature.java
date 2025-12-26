@@ -7,7 +7,7 @@ public class Temperature{
 		return (f-32)*5/9;
 	}
 
-	// convert Celsius to Fahrenheit
+	// convert Celsius to Fahrenheit 
 	public static double celToFah(double c){
 		return (c*9/5)+32;
 	}
