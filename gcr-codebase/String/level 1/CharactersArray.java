@@ -18,7 +18,7 @@ public class CharactersArray{
 	
 		char []arr=s1.toCharArray();
 		
-		return arr;
+	return arr;
 	}
 	
 	//compare two string
