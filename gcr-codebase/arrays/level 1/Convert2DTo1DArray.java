@@ -33,7 +33,7 @@ class Convert2DTo1DArray{
      //displaying 1D Array
 	System.out.println("One-Dimensional Array");
 	for(int i=0;i<row*column;i++)
-	System.out.println(array[i]);
+	System.out.print(array[i]);
 
         input.close();
 
