@@ -125,3 +125,29 @@ BridgeLabz-Training/
 👉 [Day 8 – Extras Practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
 
 ---
+
+### 🗓 Day 9 – Scenario-Based & LeetCode Array Practice  
+**(Date: 24-Dec-2025)**
+
+- Solved **2 scenario-based problems** using Java.
+- Practiced **5 array-based problems on LeetCode**.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%20%2001)  
+👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+---
+
+### 🗓 Day 10 – Scenario-Based & LeetCode Array Practice  
+**(Date: 26-Dec-2025)**
+
+- Solved **3 scenario-based problems** using Java.
+- Practiced **5 string-based problems on LeetCode**.
+- Focused on logical thinking and clean code.
+- Committed and pushed all solutions.
+
+🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase/Day%2002)  
+👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
