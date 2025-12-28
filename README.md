@@ -30,3 +30,18 @@ BridgeLabz-Training/
 👉 [Day 9 – Introduction to OOP: Class and Object](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
+
+### 🗓 Day 10 – Constructors & Static Concepts  
+**(Date: 27-Dec-2025)**
+
+- Studied constructors:
+  - Default, parameterized, and copy constructors
+- Understood constructor overloading and object initialization
+- Studied access modifiers in Java
+- Learned instance vs class (`static`) variables and methods
+- Committed and pushed all work
+
+🔗 **Code Link:**  
+👉 [Day 10 – Constructors & Static Concepts](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+
+---
