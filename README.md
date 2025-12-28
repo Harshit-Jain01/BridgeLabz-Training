@@ -157,9 +157,10 @@ BridgeLabz-Training/
 ### 🗓 Day 11 – LeetCode Array Practice  
 **(Date: 27-Dec-2025)**
 
-- Practiced **5 array-based problems on LeetCode**.
+- Practiced **5 array and 5 string based problems on LeetCode**.
 - Focused on logical thinking and clean code.
 - Committed and pushed all solutions.
 
 🔗 **Code Links:**  
 👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+👉 [LeetCode String Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
