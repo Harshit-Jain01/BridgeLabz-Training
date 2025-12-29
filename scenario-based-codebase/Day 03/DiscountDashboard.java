@@ -29,9 +29,9 @@ public class DiscountDashboard{
 		//displaying bill
         double finalAmount=totalBill-discount;
         System.out.println("\n-----Total Bill -----");
-        System.out.println("Total Bill     : ₹"+totalBill);
-        System.out.println("Discount       : ₹"+discount);
-        System.out.println("Final Amount   : ₹"+finalAmount);
+        System.out.println("Total Bill     :"+totalBill);
+        System.out.println("Discount       :"+discount);
+        System.out.println("Final Amount   :"+finalAmount);
 		
         sc.close();
     }
