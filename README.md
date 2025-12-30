@@ -27,7 +27,7 @@ BridgeLabz-Training/
 - Committed and pushed all work.
 
 🔗 **Code Link:**  
-👉 [Day 9 – Introduction to OOP: Class and Object](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Introduction to OOP: Class and Object](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
@@ -42,7 +42,7 @@ BridgeLabz-Training/
 - Committed and pushed all work
 
 🔗 **Code Link:**  
-👉 [Day 10 – Constructors & Static Concepts](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+👉 [Constructors & Static Concepts](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
 ---
 
