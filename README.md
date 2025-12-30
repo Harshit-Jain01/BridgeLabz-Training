@@ -159,12 +159,12 @@ BridgeLabz-Training/
 ### 🗓 Day 11 – LeetCode Array Practice  
 **(Date: 29-Dec-2025)**
 
--Maintained daily Core Java practice by solving multiple LeetCode problems (excluding Palindrome).
--Worked on problems such as Alternate Digit Sum, Happy Number, Majority Element, and Single Number.
--Created a Shopkeeper’s Discount Dashboard using loops and if-else logic.
--Designed a School Bus Attendance System utilizing a for-each loop to monitor attendance.
--Built interactive console programs including a Phone Recharge Simulator, Parking Lot Gate System, and a Number Guessing Game.
--Strengthened understanding of switch-case statements, loops, and control flow concepts, and successfully pushed all code to GitHub.
+- Maintained daily Core Java practice by solving multiple LeetCode problems (excluding Palindrome)
+- Worked on problems such as Alternate Digit Sum, Happy Number, Majority Element, and Single Number
+- Created a Shopkeeper’s Discount Dashboard using loops and if-else logic.
+- Designed a School Bus Attendance System utilizing a for-each loop to monitor attendance
+- Built interactive console programs including a Phone Recharge Simulator, Parking Lot Gate System, and a Number Guessing Game
+- Strengthened understanding of switch-case statements, loops, and control flow concepts, and successfully pushed all code to GitHub
 
 🔗 **Code Links:**  
 👉 [LeetCode Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
