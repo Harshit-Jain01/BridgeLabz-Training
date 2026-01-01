@@ -17,13 +17,11 @@ public class UseProduct{
         calculateFinalPrice(products);
     }
 
-    // Polymorphism using Product reference
+   
     public static void calculateFinalPrice(List<Product> products) {
 
         for (Product p : products) {
-
             double tax = 0;
-
             if (p instanceof Taxable) {
                 tax = ((Taxable) p).calculateTax();
             }
