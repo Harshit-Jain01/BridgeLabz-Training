@@ -223,7 +223,7 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Math Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
 ### 🗓 Day 16 – LeetCode-based Practice  
 **(Date: 31-Dec-2025)**
@@ -239,6 +239,6 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode Bit-Manipulation Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
+👉 [LeetCode Math Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
 
 ---
