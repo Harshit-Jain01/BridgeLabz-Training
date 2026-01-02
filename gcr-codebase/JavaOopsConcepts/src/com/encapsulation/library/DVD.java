@@ -8,8 +8,10 @@ public class DVD extends LibraryItem implements Reservable {
 
 	@Override
 	public void reserveItem() {
-	if(checkAvailability())
+	if(checkAvailability()) {
+		setAvailable(false);
 		System.out.println("Reserved successfully");
+		}
 	else 
 		System.out.println("Cannnnt reserve Book");
 		

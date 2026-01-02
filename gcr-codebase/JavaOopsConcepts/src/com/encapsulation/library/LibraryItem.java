@@ -8,7 +8,6 @@ public abstract class LibraryItem {
 	private String title;
 	private String author;
 	private boolean available=true;
-	private Set<String>set=new HashSet<>();
 	abstract int getLoanDuration();
 	
 	public LibraryItem(String itemId, String title, String author) {
@@ -17,10 +16,7 @@ public abstract class LibraryItem {
 		this.author = author;
 	}
 	public boolean isAvailable() {
-		boolean f=set.add(itemId);
-		if(f)
-		return true;
-		return false;
+		return available;
 	}
 	public void setAvailable(boolean f) {
 		available=f;

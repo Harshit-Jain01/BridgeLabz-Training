@@ -9,9 +9,10 @@ public class Book extends LibraryItem implements Reservable{
 
 	@Override
 	public void reserveItem() {
-	if(checkAvailability())
-		System.out.println("Reserved successfully");
-	else 
+		if(checkAvailability()) {
+			setAvailable(false);
+			System.out.println("Reserved successfully");
+			}
 		System.out.println("Cannnnt reserve Book");
 		
 	}
