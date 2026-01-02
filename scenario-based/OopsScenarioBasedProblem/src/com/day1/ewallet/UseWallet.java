@@ -3,7 +3,7 @@ package com.day1.ewallet;
 public class UseWallet {
 	    public static void main(String[] args) {
 
-	        User u1 = new User("Amit", new PersonalWallet(100));   // referral bonus
+	        User u1 = new User("Amit", new PersonalWallet(100));   
 	        User u2 = new User("Neeta", new BusinessWallet());
 
 	        u1.loadMoney(5000);
