@@ -2,8 +2,8 @@ package com.day2.ridehailing;
 
 public class RideService implements IRideService {
 
-    private double fare;      // sensitive
-    private boolean active;   // ride state
+    private double fare;      
+    private boolean active;   
 
     @Override
     public void bookRide(Driver driver, Vehicle vehicle, double distance) {
