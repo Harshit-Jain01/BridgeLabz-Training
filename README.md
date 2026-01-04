@@ -73,6 +73,7 @@ BridgeLabz-Training/
 |  11 | 29-Dec      | `this`, `final`, `static`      | Keywords, instance vs class members    |
 |  12 | 30-Dec      | Object Modeling                | Diagrams, relationships, communication |
 |  13 | 31-Dec      | Inheritance & Types            | Types, method overriding, & modifiers  |
+|  14 | 01-Jan      | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces  |
 
 ---
 
