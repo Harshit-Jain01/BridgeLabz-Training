@@ -115,6 +115,8 @@ BridgeLabz-Training/
 - 📌 [this, final, static, instanceof](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/staticandfinal/level1)
 - 📌 [Object Modeling & Relations](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelling)
 - 📌 [Inheritance & Types](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+- 📌 [Encapsulation & Polymorphism](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+- 📌 [Scenario-Based Solutions](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com)
 ---
 
 ## 🎓 Learnings & Best Practices
