@@ -2,40 +2,34 @@ package com.day4.edumentor;
 
 import java.util.*;
 
-public class Quiz {
+class Quiz {
 
-    private List<String> questions;      
-    private final List<String> answers;   
+    private String[] questions;     
+    private final int[] answers;    
     private int score;
 
-    // Constructor with difficulty
-    public Quiz(String difficulty) {
-        questions = new ArrayList<>();
-        answers = new ArrayList<>();
+    public Quiz(String[] questions, int[] answers, String difficulty) {
+        this.questions = questions;
+        this.answers = answers;
 
         if (difficulty.equalsIgnoreCase("easy")) {
-            questions.add("Java is platform independent?");
-            answers.add("yes");
+            this.score = 0;
+        } else if (difficulty.equalsIgnoreCase("medium")) {
+            this.score = 5;
         } else {
-            questions.add("What is JVM?");
-            answers.add("java virtual machine");
+            this.score = 10;
         }
     }
-
-   
-    public void attemptQuiz(List<String> userAnswers) {
-        for (int i = 0; i < userAnswers.size(); i++) {
-            if (userAnswers.get(i).equalsIgnoreCase(answers.get(i))) {
-                score++; // operator usage
+    
+    public void evaluate(int[] userAnswers) {
+        for (int i = 0; i < answers.length; i++) {
+            if (userAnswers[i] == answers[i]) {
+                score += 10;
             }
         }
     }
 
-    public int getScore() {
-        return score;
-    }
-
-    public double calculatePercentage() {
-        return (score * 100.0) / questions.size();
+    public double getPercentage() {
+        return (score * 100.0) / (answers.length * 10);
     }
 }

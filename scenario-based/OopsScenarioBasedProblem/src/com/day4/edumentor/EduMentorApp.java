@@ -3,21 +3,26 @@ package com.day4.edumentor;
 import java.util.*;
 
 public class EduMentorApp {
-
     public static void main(String[] args) {
 
-        Learner learner = new Learner("Harshit","harshit@mail.com",101,true);
-        Instructor instructor = new Instructor("Dr. Smith","smith@mail.com",201);
+        Learner l1 = new Learner("Hari", "hari867@gmail.com", 101, true);
+        Learner l2 = new Learner("Amit", "amit@gmail.com", 102, false);
 
-        Quiz quiz = new Quiz("easy");
+        String[] questions = {
+                "What is OOP?",
+                "What is inheritance?"
+        };
 
-        List<String> answers = Arrays.asList("yes");
-        quiz.attemptQuiz(answers);
+        int[] correctAnswers = {1, 2};
+        Quiz quiz = new Quiz(questions, correctAnswers, "medium");
 
-        System.out.println("Score: " + quiz.getScore());
-        System.out.println("Percentage: " + quiz.calculatePercentage() + "%");
+        int[] userAnswers = {1, 2};
+        quiz.evaluate(userAnswers);
 
-        learner.generateCertificate();
-        instructor.generateCertificate();
+        System.out.println("Quiz Percentage: " + quiz.getPercentage());
+
+        
+        l1.generateCertificate();
+        l2.generateCertificate();
     }
 }

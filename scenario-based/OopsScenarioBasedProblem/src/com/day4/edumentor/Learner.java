@@ -1,20 +1,20 @@
 package com.day4.edumentor;
 
-public class Learner extends User implements ICertifiable {
+class Learner extends User implements ICertifiable {
 
-    private boolean shortCourse; // encapsulated
+    private boolean fullTime;
 
-    public Learner(String name, String email, int userId, boolean shortCourse) {
+    public Learner(String name, String email, int userId, boolean fullTime) {
         super(name, email, userId);
-        this.shortCourse = shortCourse;
+        this.fullTime = fullTime;
     }
 
     @Override
     public void generateCertificate() {
-        if (shortCourse) {
-            System.out.println("Short Course Certificate issued to " + name);
-        } else {
+        if (fullTime) {
             System.out.println("Full-Time Course Certificate issued to " + name);
+        } else {
+            System.out.println("Short Course Certificate issued to " + name);
         }
     }
 }
