@@ -128,4 +128,25 @@ BridgeLabz-Training/
 👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day2)  
 
 ---
+
+### 🗓 Day 17 – Scenario-Based Practice  
+**(Date: 05-Jan-2026)**
+- Solved **2** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day3)  
+
+---
+
+### 🗓 Day 18 – Scenario-Based Practice  
+**(Date: 06-Jan-2026)**
+- Solved **4** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com/day4)  
+
+---
+
 ## 🧮 Section C : LeetCode-based Problems Progress
