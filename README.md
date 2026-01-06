@@ -239,7 +239,7 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**
-👉 [LeetCode String Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
+👉 [LeetCode Math Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
 
 ---
 
@@ -249,6 +249,6 @@ BridgeLabz-Training/
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solution.
 - 🔗 **Code Links:**
-👉 [LeetCode Math Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
+👉 [LeetCode String Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
 
 ---
