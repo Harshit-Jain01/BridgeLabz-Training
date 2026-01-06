@@ -61,6 +61,7 @@ BridgeLabz-Training/
 │   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
 │   │               └── 📁 queues/            # First-In-First-Out (FIFO)
 │   │               └── 📁 hashmaps/          # Key-Value pairs
+│   │               └── 📁 sorting/           # sorting algorithm  
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
@@ -103,7 +104,7 @@ BridgeLabz-Training/
 |-----|-------------|--------------------------------|----------------------------------------|
 |  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
-
+|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
 ---
 
 ##  Key Concepts Covered
@@ -160,7 +161,8 @@ BridgeLabz-Training/
 ### `dsa-practice` :
 - 📌 [Linked Lists](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/linkedlist)
 - 📌 [Stacks and Queue](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/stackandqueue)
-- 📌 [HashMaps](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/hashmapandhashfunction)  
+- 📌 [HashMaps](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/hashmapandhashfunction)
+- 📌 [Sorting](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)  
 ---
 
 ## 🎓 Learnings & Best Practices
