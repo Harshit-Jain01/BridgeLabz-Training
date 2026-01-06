@@ -234,7 +234,7 @@ BridgeLabz-Training/
 👉 [LeetCode Math Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/math)
 
 ### 🗓 Day 17 – LeetCode-based Practice  
-**(Date: 01-Dec-2025)**
+**(Date: 01-Jan-2026)**
 - Practiced **3** math based problems.
 - Created driver-main method & taken user inputs.
 - Committed and pushed all solutions.
