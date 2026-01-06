@@ -247,7 +247,7 @@ BridgeLabz-Training/
 **(Date: 06-Jan-2026)**
 - Practiced **5** String based problems.
 - Created driver-main method & taken user inputs.
-- Committed and pushed all solutions.
+- Committed and pushed all solution.
 - 🔗 **Code Links:**
 👉 [LeetCode Math Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/String)
 
