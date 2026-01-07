@@ -54,18 +54,21 @@ BridgeLabz-Training/
 |
 └── 📁 dsa-practice/
 │   └── 📁 gcr-codebase/
-│   │  └── 📁 DSA/
+│   │  └── 📁 DSAConcepts/
 │   │       └── 📁 src/
 │   │           └── 📁 com/
 │   │               ├── 📁 linkedlists/       # singly, doubly & circular
 │   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
 │   │               └── 📁 queues/            # First-In-First-Out (FIFO)
 │   │               └── 📁 hashmaps/          # Key-Value pairs
-│   │               └── 📁 sorting/           # sorting algorithm  
+│   │               └── 📁 sorting/           # Sorting algorithms
+│   │               └── 📁 searching/         # Searching algorithms
+│   │               └── 📁 analysis/          # Runtime Analysis & Big-O Notation
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
 └── README.md
+
 ```
 
 ---
@@ -105,6 +108,9 @@ BridgeLabz-Training/
 |  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
 |  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
+|  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
+|  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
+
 ---
 
 ##  Key Concepts Covered
@@ -162,7 +168,8 @@ BridgeLabz-Training/
 - 📌 [Linked Lists](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/linkedlist)
 - 📌 [Stacks and Queue](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/stackandqueue)
 - 📌 [HashMaps](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/hashmapandhashfunction)
-- 📌 [Sorting](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)  
+- 📌 [Sorting](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)
+- 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/searching)  
 ---
 
 ## 🎓 Learnings & Best Practices
