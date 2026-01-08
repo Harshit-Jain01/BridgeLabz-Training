@@ -92,6 +92,7 @@ BridgeLabz-Training/
 - Learned best, worst, and average case complexities.
 - Studied practical guidelines for optimizing Java code.
 - Committed and pushed all work
+👉 [Runtime Analysis & Big-O Notation](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/analysis)
 
 ---
 
@@ -101,5 +102,6 @@ BridgeLabz-Training/
 ## 🧮 Section C : LeetCode-based Problems Progress
 
 ---
+
 
 
