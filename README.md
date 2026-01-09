@@ -16,6 +16,9 @@ This repository tracks my Java learning journey at BridgeLabz since December 15,
 ### 🔹 [java-oops-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice)
 **Week 2** : Object-Oriented Programming
 
+### 🔹 [dsa-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com)
+**Week 3** : Data Structures & Algorithms
+
 ---
 
 ## 📂 Project Structure
@@ -36,15 +39,36 @@ BridgeLabz-Training/
 │   └── 📁 scenario-based-codebase/    # Real-world problems
 │
 └── 📁 java-oops-practice/
-    └── 📁 gcr-codebase/
-        └── 📁 JavaOopsConcepts/
-            └── 📁 src/
-                └── 📁 com/
-                    ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
-                    └── 📁 constructor/       # Constructor, access modifiers
-                    └── 📁 finalandstatic/    # Keywords, instance vs class members
-                    └── 📁 objectmodeling/    # Diagrams, relationships, communication
-                    └── 📁 inheritance/       # Types, method overriding, & access modifiers
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 JavaOopsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
+│   │               └── 📁 constructor/       # Constructor, access modifiers
+│   │               └── 📁 finalandstatic/    # Keywords, instance vs class members
+│   │               └── 📁 objectmodeling/    # Diagrams, relationships, communication
+│   │               └── 📁 inheritance/       # Types, method overriding, & access modifiers
+│   │               └── 📁 encapsulation/     # Abstract class, interface, & polymorphism
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+└── 📁 dsa-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 DSAConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 linkedlists/       # singly, doubly & circular
+│   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
+│   │               └── 📁 queues/            # First-In-First-Out (FIFO)
+│   │               └── 📁 hashmaps/          # Key-Value pairs
+│   │               └── 📁 sorting/           # Sorting algorithms
+│   │               └── 📁 searching/         # Searching algorithms
+│   │               └── 📁 analysis/          # Runtime Analysis & Big-O Notation
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+|
+└── README.md
+
 ```
 
 ---
@@ -73,6 +97,19 @@ BridgeLabz-Training/
 |  11 | 29-Dec      | `this`, `final`, `static`      | Keywords, instance vs class members    |
 |  12 | 30-Dec      | Object Modeling                | Diagrams, relationships, communication |
 |  13 | 31-Dec      | Inheritance & Types            | Types, method overriding, & modifiers  |
+|  14 | 01-Jan      | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces  |
+
+---
+
+### **Week 3 : Data Structures & Algorithms**
+
+| Day |     Date    | Topic                          | Coverage                               |
+|-----|-------------|--------------------------------|----------------------------------------|
+|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
+|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
+|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
+|  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
+|  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
 
 ---
 
@@ -95,6 +132,16 @@ BridgeLabz-Training/
 
 ---
 
+### Data Structures & Algorithms (dsa-practice)
+- **DSA Fundamentals**: Time & space complexity, basic problem analysis
+- **Linked Lists**: Singly, doubly, and circular linked lists
+- **Stacks**: LIFO principle, push/pop operations, stack applications
+- **Queues**: FIFO principle, enqueue/dequeue operations, queue variants
+- **HashMaps**: Key-value storage, hashing concept, basic operations
+
+---
+
+
 ## 🔗 Quick Links
 
 ### `core-java-practice` :
@@ -114,6 +161,15 @@ BridgeLabz-Training/
 - 📌 [this, final, static, instanceof](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/staticandfinal/level1)
 - 📌 [Object Modeling & Relations](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelling)
 - 📌 [Inheritance & Types](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+- 📌 [Encapsulation & Polymorphism](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+- 📌 [Scenario-Based Solutions](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-oops-practice/scenario-based/OopsScenarioBasedProblem/src/com)
+
+### `dsa-practice` :
+- 📌 [Linked Lists](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/linkedlist)
+- 📌 [Stacks and Queue](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/stackandqueue)
+- 📌 [HashMaps](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/hashmapandhashfunction)
+- 📌 [Sorting](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/sorting)
+- 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/searching)  
 ---
 
 ## 🎓 Learnings & Best Practices
