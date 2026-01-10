@@ -18,4 +18,5 @@ public class UseHospital {
 
 	        route.redirectPatient();
 	    }
-	}
+	    
+}
