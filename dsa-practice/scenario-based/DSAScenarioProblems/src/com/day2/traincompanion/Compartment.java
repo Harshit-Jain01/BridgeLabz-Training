@@ -62,10 +62,9 @@ public class Compartment {
 				}
 			}
 			temp=temp.getNext();
-		}
-		
-			
+		}		
 	}
+	
 	
 	public void forward() {
 		if(head==null)return;
