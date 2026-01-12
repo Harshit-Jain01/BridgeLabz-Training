@@ -25,7 +25,6 @@ public class TrafficManager {
         if (v3 != null) roundabout.addVehicle(v3);
 
         roundabout.display();
-
         waitingQueue.dequeue();
         waitingQueue.dequeue();
     }
