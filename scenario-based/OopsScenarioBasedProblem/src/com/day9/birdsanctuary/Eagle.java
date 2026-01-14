@@ -1,0 +1,19 @@
+package com.day9.birdsanctuary;
+
+public class Eagle  extends Bird implements Flyable{
+
+	public Eagle(int id, String name) {
+		super(id, name,"Eagle" );
+	}
+
+	@Override
+	public void eat() {
+		System.out.println("Eagle eats birds, reptiles, mammals ");
+	}
+
+	@Override
+	public void fly() {
+		System.out.println("Eagle can fly");
+	}
+
+}
