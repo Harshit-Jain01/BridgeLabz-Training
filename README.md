@@ -320,3 +320,12 @@ BridgeLabz-Training/
 👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
 
 ---
+
+### 🗓 Day 26 – LeetCode-based Practice  
+- Practiced **2** Array based problems.
+- Created driver-main method & taken user inputs.
+- Committed and pushed all solution.
+- 🔗 **Code Links:**
+👉 [LeetCode Array Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Array)
+
+---
