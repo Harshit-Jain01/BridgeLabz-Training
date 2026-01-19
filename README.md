@@ -147,14 +147,13 @@ BridgeLabz-Training/
 👉 [Scenario- Based](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioProblems/src/com/day5)
 
 ---
-## 🧮 Section C : LeetCode-based Problems Progress
+
+**(Date: 17-Jan-2026)**
+- Solved 4 scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+
+- 🔗 **Code Link:** 
+👉 [Scenario- Based](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioProblems/src/com/day6)
 
 ---
-
-
-
-
-
-
-
-
