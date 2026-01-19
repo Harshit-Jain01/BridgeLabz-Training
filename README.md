@@ -19,6 +19,9 @@ This repository tracks my Java learning journey at BridgeLabz since December 15,
 ### 🔹 [dsa-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com)
 **Week 3** : Data Structures & Algorithms
 
+### 🔹 [java-collections-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice)
+**Week 4** : Collections Framework in Java
+
 ---
 
 ## 📂 Project Structure
@@ -67,6 +70,21 @@ BridgeLabz-Training/
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
 |
+└── 📁 java-collections-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 JavaCollectionsProblem/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               └── 📁 generics/          # Generic classes, methods, wildcards
+│   │               └── 📁 list/              # List interface and implementations
+│   │               └── 📁 set/               # Set interface and implementations
+│   │               └── 📁 queue/             # Queue & Deque interface examples
+│   │               └── 📁 map/               # Map interface and implementations
+│   │               └── 📁 examples/          # Hands-on example programs
+|   |
+│   ├── 📁 leet-code-codebase/
+│   └── 📁 scenario-based-codebase/
+|
 └── README.md
 
 ```
@@ -112,6 +130,12 @@ BridgeLabz-Training/
 |  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
 |  20 | 13-Jan      | Trees & Binary Search Trees    | Basics, types and CRUD operations      |
 
+### **Week 4 : Collections Framework in Java**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
+| 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
+
 ---
 
 ##  Key Concepts Covered
@@ -147,7 +171,17 @@ BridgeLabz-Training/
 - **File Handling**: Reading input using `FileReader` and `InputStreamReader`
 - **Algorithm Analysis**: Big-O notation, time complexity, space complexity, best, worst, and average case evaluation.
 - **Trees & BST**: Tree terminology, traversal techniques, Binary Search Tree operations, and real-world applications.
+- **Graphs (DFS & BFS)**: Graph representations, DFS, BFS, and traversal-based problem solving
 
+### Collections Framework (java-collections-practice)
+- **Generics**: Type-safe collections, generic classes and methods, type parameters, bounded types, wildcards, type erasure
+- **Collections Overview**: Purpose and benefits of Java Collections Framework
+- **Hierarchy**: `Iterable`, `Collection`, `List`, `Set`, `Queue`, and `Map`
+- **List Implementations**: `ArrayList`, `LinkedList`, `Vector`
+- **Set Implementations**: `HashSet`, `LinkedHashSet`, `TreeSet`
+- **Map Implementations**: `HashMap`, `LinkedHashMap`, `TreeMap`, `Hashtable`
+- **Queue & Deque**: `PriorityQueue`, `ArrayDeque`
+- **Hands-on Practice**: CRUD, iteration, ordering, and performance examples
 
 ---
 
