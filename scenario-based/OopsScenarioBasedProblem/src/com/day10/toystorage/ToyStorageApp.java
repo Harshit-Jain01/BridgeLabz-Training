@@ -21,7 +21,7 @@ public class ToyStorageApp {
 
         redBag.addBall(ball1);
         redBag.addBall(ball2);
-        redBag.addBall(ball3); // should fail (capacity full)
+        redBag.addBall(ball3); 
 
         redBag.displayBalls();
 
