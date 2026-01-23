@@ -81,6 +81,8 @@ BridgeLabz-Training/
 │   │               └── 📁 queue/             # Queue & Deque interface examples
 │   │               └── 📁 map/               # Map interface and implementations
 │   │               └── 📁 examples/          # Hands-on example programs
+│   │               └── 📁 streams/           # I/O streams, buffering, and serialization
+│   │               └── 📁 exceptionhandling/ # Checked, unchecked, custom exceptions, try-with-resources
 |   |
 │   ├── 📁 leet-code-codebase/
 │   └── 📁 scenario-based-codebase/
@@ -135,6 +137,9 @@ BridgeLabz-Training/
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
 | 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
+| 24  | 19-Jan      | Java I/O Streams               | Byte, character, buffered, object & bridge streams                  |
+| 25  | 20-Jan      | Exception Handling             | Checked, unchecked, custom exceptions, try(resources) & nested      |
+
 
 ---
 
@@ -182,6 +187,8 @@ BridgeLabz-Training/
 - **Map Implementations**: `HashMap`, `LinkedHashMap`, `TreeMap`, `Hashtable`
 - **Queue & Deque**: `PriorityQueue`, `ArrayDeque`
 - **Hands-on Practice**: CRUD, iteration, ordering, and performance examples
+- **I/O Streams**: Byte & character streams, buffering, object serialization, and efficient file handling
+- **Exception Handling**: Checked vs unchecked exceptions, `try-catch-finally`, multiple and nested catch blocks, `throw` vs `throws`, custom exceptions, try-with-resources
 
 ---
 
@@ -216,7 +223,18 @@ BridgeLabz-Training/
 - 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/searching)
 - 📌 [Time & Space Complexity Analysis](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-code-base/DSA/src/com/analysis)
 - 📌 [Scenario-Based Solutions](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioProblems/src/com)
+
+### `java-collections-practice` :
+- 📌 [Generics](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/generics)
+- 📌 [List Interface](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/collectionsframework/list)
+- 📌 [Set Interface](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/collectionsframework/set)
+- 📌 [Queue Interface](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/collectionsframework/queue)
+- 📌 [Map Interface](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/collectionsframework/map)
+- 📌 [I/O Streams](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/javastreams)
+- 📌 [Exception Handling](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsProblem/src/com/exceptionhandling)
+
 ---
+
 
 ## 🎓 Learnings & Best Practices
 
