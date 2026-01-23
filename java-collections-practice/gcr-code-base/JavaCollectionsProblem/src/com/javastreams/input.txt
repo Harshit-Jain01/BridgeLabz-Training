@@ -1,0 +1,6 @@
+Java is a high level programming language.
+Java is widely used in enterprise applications.
+File handling in Java is very powerful.
+Java supports FileReader and BufferedReader.
+Learning Java file handling is important for backend development.
+Java Java Java
