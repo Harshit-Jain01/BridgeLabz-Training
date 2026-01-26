@@ -223,10 +223,21 @@ BridgeLabz-Training/
 ---
 
 **(Date: 21-Jan-2026)**
-- Solved 2 scenario-based problems.
+- Solved 5 scenario-based problems.
 - Focused on logical thinking and real-world problem solving.
 - Committed and pushed all solutions.
 
 - 🔗 **Code Link:** 
 👉 [Scenario- Based](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioProblems/src/com/day9)
+
+---
+
+**(Date: 22-Jan-2026)**
+- Solved 3 scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+
+- 🔗 **Code Link:** 
+👉 [Scenario- Based](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DSAScenarioProblems/src/com/day10)
+
 
