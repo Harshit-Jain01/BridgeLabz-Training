@@ -1,0 +1,30 @@
+package com.reflection;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+// Custom Annotation
+@Retention(RetentionPolicy.RUNTIME)
+@interface Author {
+    String name();
+}
+
+// Applying annotation to class
+@Author(name = "Author Name")
+class Book {
+}
+
+// Main class
+public class AnnotationReflection {
+    public static void main(String[] args) {
+
+        Class<Book> cls = Book.class;
+
+        if (cls.isAnnotationPresent(Author.class)) {
+            Author author = cls.getAnnotation(Author.class);
+            System.out.println("Author Name: " + author.name());
+        } else {
+            System.out.println("Author annotation not found");
+        }
+    }
+}
