@@ -39,3 +39,11 @@
 👉 [JSON Data Handling](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-code-base/JavaIOStreamsProblem/src/com/json)
 
 ---
+
+## 🧩 Section B : Scenario-Based Problems Progress
+**(Date: 27-Jan-2026)**
+- Solved **3** scenario-based problems.
+- Focused on logical thinking and real-world problem solving.
+- Committed and pushed all solutions.
+- 🔗 **Code Links:**  
+👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based/IOStreamScenarioProblems/src/com/day1)
