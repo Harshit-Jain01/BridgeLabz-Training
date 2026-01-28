@@ -22,6 +22,12 @@ This repository tracks my Java learning journey at BridgeLabz since December 15,
 ### 🔹 [java-collections-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice)
 **Week 4** : Collections Framework in Java
 
+### 🔹 [java-iostreams-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-iostreams-practice)
+**Week 5** : Java I/O Streams
+
+### 🔹 [java8-programming-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java8-programming-practice)
+**Week 6** : Java 8 Features
+
 ---
 
 ## 📂 Project Structure
