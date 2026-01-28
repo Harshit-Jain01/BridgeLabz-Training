@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Rakesh pal",
+    "email": "rakesh28@example.com",
+    "age": 30
+  },
+  {
+    "name": "Jane Smith",
+    "email": "invalid-email",
+    "age": 22
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "bob@example",
+    "age": 28
+  },
+  {
+    "name": "Ajay jain",
+    "email": "ajay76.brown@example.com",
+    "age": 35
+  }
+]
