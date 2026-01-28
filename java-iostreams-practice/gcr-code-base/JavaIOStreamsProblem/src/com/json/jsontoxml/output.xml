@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <name>Naman Sharma</name>
+  <email>naman23.doe@example.com</email>
+  <department>IT</department>
+  <age>30</age>
+  <salary>75000.50</salary>
+  <active>true</active>
+</root>
