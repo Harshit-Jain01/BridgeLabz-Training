@@ -1,0 +1,37 @@
+[
+  {
+    "ID": 1,
+    "Name": "Rahul Mehta",
+    "Age": 29,
+    "Department": "Finance",
+    "Salary": 72000
+  },
+  {
+    "ID": 2,
+    "Name": "Priya Sharma",
+    "Age": 26,
+    "Department": "IT",
+    "Salary": 78000
+  },
+  {
+    "ID": 3,
+    "Name": "Amit Verma",
+    "Age": 34,
+    "Department": "HR",
+    "Salary": 66000
+  },
+  {
+    "ID": 4,
+    "Name": "Neha Kapoor",
+    "Age": 31,
+    "Department": "Marketing",
+    "Salary": 74000
+  },
+  {
+    "ID": 5,
+    "Name": "Sandeep Kumar",
+    "Age": 28,
+    "Department": "Operations",
+    "Salary": 69000
+  }
+]
