@@ -19,6 +19,7 @@ public class GenerateCSVFromDatabase {
             writeMockData(writer);
             writer.flush();
             System.out.println("CSV report generated: " + CSV_FILE_PATH);
+            
         } catch (IOException e) {
             System.err.println("Failed to write CSV file: " + e.getMessage());
         }
