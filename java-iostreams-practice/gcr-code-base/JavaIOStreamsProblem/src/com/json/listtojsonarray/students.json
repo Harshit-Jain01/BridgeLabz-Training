@@ -1,0 +1,22 @@
+[
+  {
+    "name": "John Doe",
+    "age": 20,
+    "marks": 85.5
+  },
+  {
+    "name": "Jane Smith",
+    "age": 21,
+    "marks": 92.0
+  },
+  {
+    "name": "Bob Johnson",
+    "age": 19,
+    "marks": 78.5
+  },
+  {
+    "name": "Alice Brown",
+    "age": 22,
+    "marks": 88.0
+  }
+]
