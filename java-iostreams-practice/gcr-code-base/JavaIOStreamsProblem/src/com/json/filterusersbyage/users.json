@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rahul Mehta",
+    "age": 31,
+    "email": "rahul.mehta@example.com",
+    "city": "Mumbai"
+  },
+  {
+    "name": "Priya Sharma",
+    "age": 23,
+    "email": "priya.sharma@example.com",
+    "city": "Bengaluru"
+  },
+  {
+    "name": "Amit Verma",
+    "age": 29,
+    "email": "amit.verma@example.com",
+    "city": "Delhi"
+  },
+  {
+    "name": "Neha Kapoor",
+    "age": 36,
+    "email": "neha.kapoor@example.com",
+    "city": "Pune"
+  },
+  {
+    "name": "Sandeep Kumar",
+    "age": 26,
+    "email": "sandeep.kumar@example.com",
+    "city": "Hyderabad"
+  }
+]
