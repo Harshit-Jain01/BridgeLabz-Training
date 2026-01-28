@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Rahul Mehta",
+    "age": 32,
+    "email": "rahul.mehta@example.com"
+  },
+  {
+    "name": "Priya Sharma",
+    "age": 25,
+    "email": "priya.sharma@example.com"
+  },
+  {
+    "name": "Amit Verma",
+    "age": 29,
+    "email": "amit.verma@example.com"
+  },
+  {
+    "name": "Neha Kapoor",
+    "age": 34,
+    "email": "neha.kapoor@example.com"
+  },
+  {
+    "name": "Sandeep Kumar",
+    "age": 27,
+    "email": "sandeep.kumar@example.com"
+  }
+]
