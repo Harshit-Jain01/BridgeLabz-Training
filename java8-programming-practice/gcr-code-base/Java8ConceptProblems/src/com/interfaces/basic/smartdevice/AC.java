@@ -17,4 +17,5 @@ public class AC implements Device {
     public void turnOff() {
         System.out.println(location + " AC --> Powered OFF");
     }
+    
 }
