@@ -1,0 +1,9 @@
+package com.day1.optionalclass.employeesystem;
+
+
+public class EmployeeNotFoundException extends RuntimeException {
+
+    public EmployeeNotFoundException(String message) {
+        super(message);
+    }
+}
