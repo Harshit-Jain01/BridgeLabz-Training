@@ -25,7 +25,6 @@ BridgeLabz-Training/
 |   |               └── annotations/
 |   |               └── reflection/            
 |   |
-│ 	│── leet-code-codebase/
 │ 	└── scenario-based-codebase/
 └── README.md
 ```
@@ -191,5 +190,7 @@ BridgeLabz-Training/
 - Committed and pushed all solutions.
 - 🔗 **Code Links:**  
 👉 [Scenario Based Problems](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/JavaCollectionsScenarioProblem/src/com/day2)
+
+
 
 ---
