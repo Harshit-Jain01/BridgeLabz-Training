@@ -112,6 +112,10 @@ BridgeLabz-Training/
 │   │               ├── 📁 lambdas/           # Lambda expressions, functional interfaces, syntax
 │   │               └── 📁 methodreferences/  # Static, instance, constructor references
 │   │               └── 📁 interfaces/        # Default methods, static methods, functional interfaces
+|   |               └── 📁 streams/           # Stream API, intermediate & terminal operations
+│   │               └── 📁 collectors/        # Grouping, partitioning, summarizing collectors
+│   │               └── 📁 workshop/          # Mini projects & real-world stream problems
+│   │               └── 📁 designprinciples/  # SOLID principles, best practices, clean-code guidelines
 |   |
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based-codebase/           # Real-world problems
@@ -179,6 +183,8 @@ BridgeLabz-Training/
 | Day |     Date    | Topic                          | Coverage                                                            |
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
+| 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
+| 32  | 31-Jan      | Design Principles & Patterns   | SOLID, GoF patterns, clean code principles                          |
 
 ---
 
@@ -242,7 +248,12 @@ BridgeLabz-Training/
 - **Functional Interfaces**: `Predicate`, `Function`, `Consumer`, `Supplier`
 - **Method References**: Static, instance, and constructor references
 - **Interface Enhancements**: Default and static methods
-
+- **Streams API**: Lazy evaluation, pipelines, parallel streams
+- **Collectors**: Grouping, partitioning, summarization, joining
+- **Workshop**: Real-world data processing using streams
+- **Design Principles**: SOLID, DRY, KISS, YAGNI, composition over inheritance
+- **Design Patterns**: Singleton, Factory, Observer, Builder
+- **Clean Code Practices**: Object Calisthenics, interface-driven design
 
 ---
 
