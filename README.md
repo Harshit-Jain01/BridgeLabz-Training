@@ -7,6 +7,7 @@
 ### 🗓 Day 30 – Lambda Expressions, Method References & Interfaces 
 (Date: 27-Jan-2026)
 - Set up and revised the \`java8-programming-practice\` branch structure.
+```
 BridgeLabz-Training/
 │── java8-programming-practice/
 │ 	│── gcr-codebase/
@@ -23,7 +24,7 @@ BridgeLabz-Training/
 |   |
 │ 	└── scenario-based-codebase/
 └── README.md
-
+```
 - Studied Java 8 goals and functional-programming concepts.
 - Learned lambda expression syntax and target typing.
 - Implemented custom and predefined functional interfaces (Predicate, Function, Consumer, Supplier).
