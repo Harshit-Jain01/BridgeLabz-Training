@@ -1,0 +1,207 @@
+mysql> CREATE DATABASE appointment_scheduling;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> USE appointment_scheduling;
+Database changed
+mysql> CREATE TABLE patients (
+    ->     patient_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     patient_name VARCHAR(100) NOT NULL,
+    ->     contact VARCHAR(15)
+    -> );
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> CREATE TABLE doctors (
+    ->     doctor_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     doctor_name VARCHAR(100) NOT NULL,
+    ->     specialization VARCHAR(100)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> CREATE TABLE appointments (
+    ->     appointment_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     patient_id INT NOT NULL,
+    ->     doctor_id INT NOT NULL,
+    ->     appointment_date DATE NOT NULL,
+    ->     appointment_time TIME NOT NULL,
+    ->     status VARCHAR(20) DEFAULT 'SCHEDULED',
+    ->
+    ->     FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    ->     FOREIGN KEY (doctor_id) REFERENCES doctors(doctor_id)
+    -> );
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> CREATE TABLE appointment_audit (
+    ->     audit_id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     appointment_id INT,
+    ->     action VARCHAR(50),
+    ->     action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ->
+    ->     FOREIGN KEY (appointment_id) REFERENCES appointments(appointment_id)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> INSERT INTO patients (patient_name, contact)
+    -> VALUES
+    -> ('Rahul Sharma', '9876543210'),
+    -> ('Anita Verma', '9123456789');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> INSERT INTO doctors (doctor_name, specialization)
+    -> VALUES
+    -> ('Dr. Amit Kumar', 'Cardiology'),
+    -> ('Dr. Neha Singh', 'Dermatology');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> SELECT COUNT(*)
+    -> FROM appointments
+    -> WHERE doctor_id = 1
+    -> AND appointment_date = '2026-02-15'
+    -> AND appointment_time = '10:30:00'
+    -> AND status = 'SCHEDULED';
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.03 sec)
+
+mysql> INSERT INTO appointments
+    -> (patient_id, doctor_id, appointment_date, appointment_time, status)
+    -> VALUES
+    -> (1, 1, '2026-02-15', '10:30:00', 'SCHEDULED');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT
+    ->     appointment_time,
+    ->     COUNT(*) AS total_bookings
+    -> FROM appointments
+    -> WHERE doctor_id = 1
+    -> AND appointment_date = '2026-02-15'
+    -> AND status = 'SCHEDULED'
+    -> GROUP BY appointment_time;
++------------------+----------------+
+| appointment_time | total_bookings |
++------------------+----------------+
+| 10:30:00         |              1 |
++------------------+----------------+
+1 row in set (0.01 sec)
+
+mysql> START TRANSACTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>
+mysql> UPDATE appointments
+    -> SET status = 'CANCELLED'
+    -> WHERE appointment_id = 1;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql>
+mysql> INSERT INTO appointment_audit
+    -> (appointment_id, action)
+    -> VALUES
+    -> (1, 'CANCELLED');
+Query OK, 1 row affected (0.00 sec)
+
+mysql>
+mysql> COMMIT;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> START TRANSACTION;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>
+mysql> -- Check availability
+mysql> SELECT COUNT(*)
+    -> FROM appointments
+    -> WHERE doctor_id = 2
+    -> AND appointment_date = '2026-02-16'
+    -> AND appointment_time = '11:00:00'
+    -> AND status = 'SCHEDULED';
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.01 sec)
+
+mysql>
+mysql> -- If count = 0, proceed
+mysql> UPDATE appointments
+    -> SET doctor_id = 2,
+    ->     appointment_date = '2026-02-16',
+    ->     appointment_time = '11:00:00'
+    -> WHERE appointment_id = 1;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql>
+mysql> INSERT INTO appointment_audit
+    -> (appointment_id, action)
+    -> VALUES
+    -> (1, 'RESCHEDULED');
+Query OK, 1 row affected (0.00 sec)
+
+mysql>
+mysql> COMMIT;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT
+    ->     a.appointment_time,
+    ->     p.patient_name,
+    ->     d.doctor_name,
+    ->     a.status
+    -> FROM appointments a
+    -> JOIN patients p ON a.patient_id = p.patient_id
+    -> JOIN doctors d ON a.doctor_id = d.doctor_id
+    -> WHERE a.appointment_date = '2026-02-15'
+    -> ORDER BY a.appointment_time;
+Empty set (0.01 sec)
+
+mysql> SHOW TABLES;
++----------------------------------+
+| Tables_in_appointment_scheduling |
++----------------------------------+
+| appointment_audit                |
+| appointments                     |
+| doctors                          |
+| patients                         |
++----------------------------------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT * FROM patients;
++------------+--------------+------------+
+| patient_id | patient_name | contact    |
++------------+--------------+------------+
+|          1 | Rahul Sharma | 9876543210 |
+|          2 | Anita Verma  | 9123456789 |
++------------+--------------+------------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM doctors;
++-----------+----------------+----------------+
+| doctor_id | doctor_name    | specialization |
++-----------+----------------+----------------+
+|         1 | Dr. Amit Kumar | Cardiology     |
+|         2 | Dr. Neha Singh | Dermatology    |
++-----------+----------------+----------------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM appointments;
++----------------+------------+-----------+------------------+------------------+-----------+
+| appointment_id | patient_id | doctor_id | appointment_date | appointment_time | status    |
++----------------+------------+-----------+------------------+------------------+-----------+
+|              1 |          1 |         2 | 2026-02-16       | 11:00:00         | CANCELLED |
++----------------+------------+-----------+------------------+------------------+-----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM appointment_audit;
++----------+----------------+-------------+---------------------+
+| audit_id | appointment_id | action      | action_time         |
++----------+----------------+-------------+---------------------+
+|        1 |              1 | CANCELLED   | 2026-02-09 12:21:19 |
+|        2 |              1 | RESCHEDULED | 2026-02-09 12:21:26 |
++----------+----------------+-------------+---------------------+
+2 rows in set (0.00 sec)
