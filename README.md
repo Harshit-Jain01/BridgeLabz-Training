@@ -131,8 +131,17 @@ BridgeLabz-Training/
 │   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
 │   │               └── 📁 multithreading/    # Thread lifecycle, synchronization, concurrency examples 
 |   |
-│   └── 📁 scenario-based-codebase/           # Real-world problems
-│  
+│   └── 📁 scenario-based-codebase/           # Real-world problems 
+├── 📁 dbms-jdbc-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁DBMSConceptsProblem/
+│   │       ├── 📁 src/
+│   │       │    └── 📁 com/
+│   │       │          └── 📁 dbmsjdbc/
+│   │                       └── 📁 mysql/             # SQL scripts, DBMS fundamentals & MySQL DB
+│   │                         
+│   │
+│   └── 📁 scenario-based-codebase/                 # Real-world problems
 |
 └── README.md
 
@@ -205,6 +214,11 @@ BridgeLabz-Training/
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 32  | 31-Jan      | Design Principles & Patterns   | SOLID, DRY, YAGNI, KISS, GoF patterns, clean code principles        |
 | 33  | 02-Feb      | Multithreading in Java         | Thread lifecycle, synchronization, concurrency use cases            |
+
+### **Week 8 : DBMS, SQL & JDBC Fundamentals**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 34  | 06-Feb      | DBMS & SQL Optimization        | Normalization, joins, transactions, indexes, tuning & EXPLAIN       |
 
 ---
 
@@ -280,6 +294,15 @@ BridgeLabz-Training/
 - **Multithreading**: Thread lifecycle, creation using Thread & Runnable, priorities, daemon threads
 - **Synchronization**: Locks, shared resource handling, race-condition prevention
 - **Concurrency Testing**: JUnit validation, timing logs, performance comparison
+
+### DBMS, SQL & JDBC Fundamentals (dbms-jdbc-practice)
+- **Database Design**: Normal forms (1NF–4NF, BCNF), schema modeling
+- **Keys**: Primary, foreign, composite, candidate, unique
+- **SQL Commands**: DDL, DML, DQL, DCL, TCL
+- **Joins**: Inner, outer, cross, self joins
+- **Advanced Queries**: Subqueries, CTEs, window functions
+- **Indexing**: Clustered, non-clustered, composite, full-text
+- **Query Optimization**: Execution plans, `EXPLAIN`, tuning strategies
 
 
 ---
