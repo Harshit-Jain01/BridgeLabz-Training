@@ -9,7 +9,8 @@
 
 ### 🔧 Setup & Structure
 - Set up and revised the `dbms-jdbc-practice` branch structure
-
+  
+```
 BridgeLabz-Training/
 ├── dbms-jdbc-practice/
 │   ├── gcr-code-base/
@@ -19,6 +20,7 @@ BridgeLabz-Training/
 │   │               └── mysql/
 │   └── scenario-based-codebase/
 └── README.md
+```
 
 ### 📚 Learning & Practice
 - Studied SQL RDBMS industry standards and database design principles
