@@ -31,6 +31,9 @@ This repository tracks my Java learning journey at BridgeLabz since December 15,
 ### 🔹 [java-design-pattern-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/java-design-pattern-practice)
 **Week 7** : Java Design Principles & Design Patterns
 
+### 🔹 [dbms-jdbc-practice](https://github.com/Harshit-Jain01/BridgeLabz-Training/tree/dbms-jdbc-practice)
+**Week 8** : DBMS, SQL & JDBC Fundamentals
+
 ---
 
 ## 📂 Project Structure
