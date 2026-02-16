@@ -134,19 +134,28 @@ BridgeLabz-Training/
 │   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
 │   │               └── 📁 multithreading/    # Thread lifecycle, synchronization, concurrency examples 
 |   |
-│   └── 📁 scenario-based-codebase/           # Real-world problems 
+│   └── 📁 scenario-based-codebase/           # Real-world problems
+│
 ├── 📁 dbms-jdbc-practice/
 │   ├── 📁 gcr-codebase/
-│   │   └── 📁DBMSConceptsProblem/
-│   │       ├── 📁 src/
-│   │       │    └── 📁 com/
-│   │       │          └── 📁 dbmsjdbc/
-│   │                       └── 📁 mysql/             # SQL scripts, DBMS fundamentals & MySQL DB
-│   │                         
+│   │   └── 📁 DBMSConceptsProblem/
+│   │   │   ├── 📁 src/
+│   │   │    │   ├── 📁 com/
+│   │   │   │   │   └── 📁 mysql/         # SQL scripts, DBMS fundamentals & MySQL practice            
+│   │   |
+│   │   ├── 📁 JDBCConcepts/
+│   │       └── 📁 src/
+│   │            └── 📁 main/
+│   │                 └── 📁 java/
+│   │                      └── 📁 com/
+│   │                          └── 📁 dbmsjdbc/  # Complete JDBC project (CRUD, Connection, DAO)
+│   │                      
 │   │
-│   └── 📁 scenario-based-codebase/                 # Real-world problems
-|
+│   └── 📁 scenario-based-codebase/       # Real-world problem implementations using DBMS & JDBC
+│     
+│
 └── README.md
+
 
 ```
 
@@ -222,6 +231,7 @@ BridgeLabz-Training/
 | Day |     Date    | Topic                          | Coverage                                                            |
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 34  | 06-Feb      | DBMS & SQL Optimization        | Normalization, joins, transactions, indexes, tuning & EXPLAIN       |
+| 35  | 09-Feb      | JDBC Fundamentals, Connectivity| JDBC architecture, CRUD operations, transactions, DAO/DTO patterns  |
 
 ---
 
@@ -299,14 +309,16 @@ BridgeLabz-Training/
 - **Concurrency Testing**: JUnit validation, timing logs, performance comparison
 
 ### DBMS, SQL & JDBC Fundamentals (dbms-jdbc-practice)
-- **Database Design**: Normal forms (1NF–4NF, BCNF), schema modeling
 - **Keys**: Primary, foreign, composite, candidate, unique
 - **SQL Commands**: DDL, DML, DQL, DCL, TCL
 - **Joins**: Inner, outer, cross, self joins
 - **Advanced Queries**: Subqueries, CTEs, window functions
-- **Indexing**: Clustered, non-clustered, composite, full-text
+- **Indexing**: Clustered, non-clustered, composite, full-text, unique
 - **Query Optimization**: Execution plans, `EXPLAIN`, tuning strategies
-
+- **JDBC Architecture**: DriverManager, Connection, Statement APIs
+- **Database Operations**: CRUD using PreparedStatement
+- **Transactions**: Commit, rollback, savepoints, auto-commit handling
+- **Design Patterns**: DAO and DTO for database applications
 
 ---
 
