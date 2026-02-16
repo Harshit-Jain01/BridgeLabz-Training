@@ -15,24 +15,16 @@ BridgeLabz-Training/
 ├── 📁 dbms-jdbc-practice/
 │   ├── 📁 gcr-codebase/
 │   │   └── 📁 DBMSConceptsProblem/
-│   │       ├── 📁 src/
-│   │       │   ├── 📁 com/
-│   │       │   │   └── 📁 mysql/          
-│   │       │   │       # SQL scripts, DBMS fundamentals & MySQL practice
-│   │       │   │
-│   │       │   └── 📁 java/
-│   │       │       └── 📁 com/
-│   │       │           └── 📁 dbmsjdbc/   # JDBC programs & DAO layer implementation
-│   │       │             
-│   │       │
-│   │       └── README.md
-│   │
-│   ├── 📁 JDBCConcepts/
-│   │   └── 📁 src/
-│   │       └── 📁 main/
-│   │           └── 📁 java/
-│   │               └── 📁 com/
-│   │                   └── 📁 dbmsjdbc/  # Complete JDBC project (CRUD, Connection, DAO)
+│   │   │   ├── 📁 src/
+│   │   │    │   ├── 📁 com/
+│   │   │   │   │   └── 📁 mysql/         # SQL scripts, DBMS fundamentals & MySQL practice            
+│   │   |
+│   │   ├── 📁 JDBCConcepts/
+│   │       └── 📁 src/
+│   │            └── 📁 main/
+│   │                 └── 📁 java/
+│   │                      └── 📁 com/
+│   │                          └── 📁 dbmsjdbc/  # Complete JDBC project (CRUD, Connection, DAO)
 │   │                      
 │   │
 │   └── 📁 scenario-based-codebase/       # Real-world problem implementations using DBMS & JDBC
